@@ -7,7 +7,7 @@ const SQUAD = require("../models/Squad");
 const GAME_PLAYED = require("../models/GamePlayed");
 const SENDER = require("../models/Sender");
 const RECIEVER = require("../models/Request");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 // const cookie = require("cookie");
 
