@@ -16,7 +16,7 @@ const game =  require("./routers/blog");
 // Use the cors middleware
 // Enable CORS for all routes
 app.use(cors({
-    origin: 'http://localhost:3000', // frontend URL
+    origin: 'https://noboandayu.vercel.app/', // frontend URL
     credentials: true, // Allow credentials (cookies)
   }));
 
