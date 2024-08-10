@@ -44,7 +44,7 @@ exports.createPost = async(req,res)=>{
 
         let imgl = img;
         if(game_type=="FreeFire"){
-            imgl = "https://www.hdwallpapers.in/download/garena_free_fire_skin_hd_free_fire-HD.jpg"
+            imgl = "https://4.bp.blogspot.com/-oBNm-qVsL0Q/Xap-M-9gerI/AAAAAAAABhE/k6qevOl1c3Uq6sNDw_k-j82R7Gtc_GoMQCK4BGAYYCw/w680/free%2Bfire%2Bmod%2Bapk.jpg"
         }
         else{
             imgl = "https://th.bing.com/th/id/OIP.yWdX_XcIQDt3JIlHTqWjMAHaEK?rs=1&pid=ImgDetMain"
