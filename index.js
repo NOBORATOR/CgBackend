@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const cookieParser = require("cookie-parser");
 const cors = require('cors');
+const bodyParser = require("body-parser");
 
 require('dotenv').config();
 const PORT = process.env.PORT || 3300;
@@ -9,6 +10,9 @@ const PORT = process.env.PORT || 3300;
 
 //middleware
 app.use(express.json());
+
+app.use(bodyParser.json()); // for JSON data
+app.use(bodyParser.urlencoded({ extended: true }));
 
 const game =  require("./routers/blog");
 
