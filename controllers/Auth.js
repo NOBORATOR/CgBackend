@@ -277,6 +277,8 @@ exports.login = async(req,res) => {
             const option = {
                 expires : new Date(Date.now() + 3*24*60*60*1000),
                 httpOnly :true,
+                secure:true,
+                sameSite : 'none',
             }
             req.user = user;//justy added and testing
             console.log(req);
