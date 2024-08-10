@@ -276,9 +276,7 @@ exports.login = async(req,res) => {
             //create cookie and send response
             const option = {
                 expires : new Date(Date.now() + 3*24*60*60*1000),
-                // httpOnly :true,
-                secure: true,
-                sameSite: 'none'
+                httpOnly :true,
             }
             req.user = user;//justy added and testing
             console.log(req);
