@@ -18,6 +18,7 @@ const game =  require("./routers/blog");
 app.use(cors({
     origin: 'http://localhost:3000', // frontend URL
     credentials: true, // Allow credentials (cookies)
+    credentials: 'include'
   }));
 
 //parse cookie
