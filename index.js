@@ -18,7 +18,7 @@ const game =  require("./routers/blog");
 app.use(cors({
     origin: 'https://noboandayu.vercel.app', // frontend URL
     credentials: true, // Allow credentials (cookies)
-    credentials: 'include'
+    // credentials: 'include'
   }));
 
 //parse cookie
