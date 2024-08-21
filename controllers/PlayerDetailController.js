@@ -15,13 +15,13 @@ exports.playerDetailUpdate = async(req,res)=>{
         } = req.body;
 
         //validate : - no need due to any one entry can be updated
-        console.log(matches_played,total_win,kill);
-        if(matches_played<total_win){
-            return res.status(404).json({
-                success : false,
-                message : "Matches played is less than win",
-            });
-        }
+        // console.log(matches_played,total_win,kill);
+        // if(matches_played<total_win){
+        //     return res.status(404).json({
+        //         success : false,
+        //         message : "Matches played is less than win",
+        //     });
+        // }
        
 
         //check for Who want to update squad
